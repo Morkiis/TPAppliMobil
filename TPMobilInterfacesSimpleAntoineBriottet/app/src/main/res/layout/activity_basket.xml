@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.briot.tpmobilinterfacessimpleantoinebriottet.Basket">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:text="Le basket-ball ou basketball3, fréquemment désigné en français par son abréviation basket, est un sport collectif opposant deux équipes de cinq joueurs sur un terrain rectangulaire. L'objectif de chaque équipe est de faire passer un ballon au sein d'un arceau de 46 cm de diamètre, fixé à un panneau et placé à 3,05 m du sol : le panier. Chaque panier inscrit rapporte deux points à son équipe, à l'exception des tirs effectués au-delà de la ligne des trois points qui rapportent trois points et des lancers francs accordés à la suite d'une faute qui rapportent un point. L'équipe avec le nombre de points le plus important remporte la partie."
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <Button
+        android:id="@+id/SportBut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Sport" />
+
+    <Button
+        android:id="@+id/AccueilBut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/SportBut"
+        android:layout_alignRight="@+id/SportBut"
+        android:layout_below="@+id/SportBut"
+        android:layout_marginTop="23dp"
+        android:text="Accueil" />
+</RelativeLayout>

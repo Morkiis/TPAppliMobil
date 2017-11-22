@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TPMobilInterfacesSimpleAntoineBriottet</string>
+    <string name="nom">Nom</string>
+    <string name="prenom">prenom</string>
+    <string name="adresse">Adresse</string>
+    <string name="dn">Date de naissance</string>
+    <string name="mail">Mail</string>
+    <string name="Valider">Valider</string>
+</resources>

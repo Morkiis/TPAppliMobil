@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.briot.tpmobilinterfacessimpleantoinebriottet.Info">
+
+    <TextView
+        android:id="@+id/receNom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:text="TextView"
+        android:layout_below="@+id/receCommentaire" />
+
+    <TextView
+        android:id="@+id/recePrenom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/receNom"
+        android:layout_alignStart="@+id/receNom"
+        android:layout_below="@+id/receNom"
+        android:layout_marginTop="105dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/raceDN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/receNom"
+        android:layout_alignStart="@+id/receNom"
+        android:layout_below="@+id/receNom"
+        android:layout_marginTop="26dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/raceMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/raceDN"
+        android:layout_alignStart="@+id/raceDN"
+        android:layout_below="@+id/raceDN"
+        android:layout_marginTop="18dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/raceAdresse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="24dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/receCommentaire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/raceAdresse"
+        android:layout_alignStart="@+id/raceAdresse"
+        android:layout_below="@+id/raceAdresse"
+        android:layout_marginTop="23dp"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/ButSport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recePrenom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Sport" />
+
+    <Button
+        android:id="@+id/ButAccueil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ButSport"
+        android:layout_alignStart="@+id/ButSport"
+        android:layout_below="@+id/ButSport"
+        android:layout_marginTop="61dp"
+        android:text="Accueil" />
+</RelativeLayout>

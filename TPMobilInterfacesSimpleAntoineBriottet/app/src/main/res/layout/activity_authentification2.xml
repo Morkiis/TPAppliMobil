@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/textNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nom"
+        android:layout_below="@+id/radioGroup"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/textPrenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/prenom"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/textNom"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/textDN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dn"
+        android:layout_below="@+id/textPrenom"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/textMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mail"
+        android:layout_below="@+id/textDN"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="19dp" />
+
+    <EditText
+        android:id="@+id/textAdresse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/adresse"
+        android:layout_below="@+id/textMail"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="26dp" />
+
+    <EditText
+        android:id="@+id/textCommentaire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Commentaire"
+        android:layout_below="@+id/textAdresse"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup">
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:text="Monsieur" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/radioButton2"
+            android:layout_toRightOf="@+id/radioButton2"
+            android:layout_weight="1"
+            android:text="Madame" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/ButVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:text="Button" />
+
+</RelativeLayout>
